@@ -195,8 +195,11 @@ construirArbolDPLL estado
 --Funcion para buscar una solucion recorriendo el arbol
 buscarSolucion :: ArbolDPLL -> Interpretacion
 buscarSolucion Void = []
-buscarSolucion (Node (i, xs) _) =
-    if success (i, xs) then i else []
-buscarSolucion (Branch (i, xs) izq der) =
+
+buscarSolucion (Node (i, cs) hijo) =
+    if success (i, cs) then i
+    else buscarSolucion hijo
+
+buscarSolucion (Branch (i, cs) izq der) =
     let solIzq = buscarSolucion izq
     in if null solIzq then buscarSolucion der else solIzq
