@@ -22,12 +22,12 @@ Si no les llegan a funcionar, es posible que el problema es que tengan una versi
 
 En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integrante n" y escribir su nombre empezando por apellidos y su número de cuenta.
 
-+ Integrante 1
-    - No. de Cuenta: 
-+ Integrante 2
-    - No. de Cuenta: 
-+ Integrante 3
-    - No. de Cuenta: 
++ DURAN RUIZ OSVALDO EMANUEL
+    - No. de Cuenta: 322311880
++ GARCIA HERNANDEZ SOFIA NATALY
+    - No. de Cuenta: 119004799
++ PEREZ GARCIA BLANCA XIRONE
+    - No. de Cuenta: 314213989
 
 ## Nota
 Esta práctica cuenta con un ejercicio extra, si deciden realizarlo hagan las modificaciones habituales. Si no lo realizan, déjenlo tal cual como está en esta asignación.
